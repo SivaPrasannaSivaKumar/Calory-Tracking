@@ -1,0 +1,87 @@
+#container{
+  width: 100%;
+  height: 97.5vh;
+  background-color: aqua;
+  overflow-y:hidden;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+
+#headerContainer{
+  width: 100%;
+  height: 50px;
+  background-color: tomato;
+  text-transform: uppercase;
+}
+
+#headerContainer > h1{
+  display: flex;
+  margin: 4.5px 10px;
+  font-size: 2em;
+}
+
+#search{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#search > label{
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+#search > #searchBox{
+width: 15%;
+padding: 5px;
+text-align: center;
+caret-color: tomato;
+font-size: medium;
+outline: none;
+border-color: tomato;
+margin-bottom: 15px;
+}
+
+#search > #newFood{
+  width: 10%;
+  color: beige;
+  background-color: tomato;
+  padding: 4px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#form-group{
+  width: 400px;
+  height: 200px;
+  /* background-color: tomato; */
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name,.calories,.image{
+  margin: 13px 20px;
+}
+
+.name > label{
+  margin-right: 20px;
+}
+
+.calories > label{
+  margin-right: 4px;
+  margin-left: -3px;
+}
+
+.calories > input{
+  margin-left: 0.8px;
+}
+
+.image > label{
+  margin-right: 15px;
+}
