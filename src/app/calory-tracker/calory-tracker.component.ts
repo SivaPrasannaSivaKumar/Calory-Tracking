@@ -21,8 +21,6 @@ export class CaloryTrackerComponent implements OnInit {
 
   }
 
-
-
   toggleShow(){
     this.show = true
   }

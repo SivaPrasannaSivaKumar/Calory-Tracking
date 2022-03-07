@@ -74,17 +74,32 @@ margin-bottom: 15px;
   margin-right: 20px;
 }
 
+.name > input{
+  caret-color: tomato;
+  border-color: tomato;
+  outline: none;
+}
 .calories > label{
   margin-right: 4px;
   margin-left: -3px;
 }
 
+
 .calories > input{
   margin-left: 0.8px;
+  caret-color: tomato;
+  border-color: tomato;
+  outline: none;
 }
 
 .image > label{
   margin-right: 15px;
+}
+
+.image > input{
+  caret-color: tomato;
+  border-color: tomato;
+  outline: none;
 }
 
 #submit{
