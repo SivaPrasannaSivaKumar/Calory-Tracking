@@ -53,6 +53,7 @@ margin-bottom: 15px;
   border: none;
   cursor: pointer;
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 #form-group{
@@ -84,4 +85,36 @@ margin-bottom: 15px;
 
 .image > label{
   margin-right: 15px;
+}
+
+#submit{
+  width: 25%;
+  margin-left: 8%;
+  color: beige;
+  background-color: tomato;
+  padding: 4px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/* Display Container */
+#displayContainer{
+ margin: 0 auto;
+ width: 700px;
+ height: 600px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ border: 2px solid tomato;
+ border-radius: 30px;
+}
+
+#box{
+margin: 0 auto;
+width: 500px;
+height: 200px;
+border: 2px solid darkgrey;
+border-radius: 10px;
 }

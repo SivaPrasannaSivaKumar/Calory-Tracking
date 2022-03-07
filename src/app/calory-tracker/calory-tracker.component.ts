@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormGroup, FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-calory-tracker',
@@ -7,19 +8,27 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CaloryTrackerComponent implements OnInit {
 
-  ChangeText:boolean = true
   show:boolean = false
 
+  Name:string = ""
+  Calory:string = ""
+  Image:string = ""
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
   toggleShow(){
-    this.show = !this.show
-    this.ChangeText = !this.ChangeText
+    this.show = true
   }
 
-
+  onSubmit():void{
+    this.show = false
+    console.log(this.Name,this.Calory,this.Image)
+    this.Name = ""
+    this.Calory = ""
+    this.Image = ""
+  }
 
 }
